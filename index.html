@@ -7,19 +7,25 @@
     <title>Super Mario JS</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body onload="startGame()">
 
     <div class="background">
 
         <img src="/images/super-mario-logo.png" alt="" class="logo">
+        <div class="controles">
+            <img class="teclas" src="images/teclas.png" alt="">
+            <h2>Use as setas<br> do teclado</h2>
+        </div>
+        <audio controls autoplay>
+            <source src="mario-song.mp3"  type="audio/mp3">
+        </audio>
 
 
-    <div class="game-board">
-        score: <p id="score"></p>
-        <img src="images/clouds.png" alt="" class="clouds">
-        <img src="images/mario.gif" alt="" class="mario">
-        <img src="images/pipe.png" alt="" class="pipe">
-    </div>
+        <div class="game-board">
+            <img src="images/clouds.png" alt="" class="clouds">
+            <img src="images/mario.gif" alt="" class="mario">
+            <img src="images/pipe.png" alt="" class="pipe">
+        </div>
 
     </div>
 

@@ -36,11 +36,8 @@ const loop = setInterval( () => {
 
 document.addEventListener('keydown' , jump)
 
-var score = 0
 
-document.getElementById("score").innerHTML = score;
+/* Score */
 
 
-while (score < 99999 ) {
-    score++
-}
+
